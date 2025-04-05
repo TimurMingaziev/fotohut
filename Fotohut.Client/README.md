@@ -1,29 +1,48 @@
-# Fotohut.Client
+# Fotohut Client
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontend application for Fotohut, built with Vue 3 and Vite.
 
-## Recommended IDE Setup
+## Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Node.js (v18 or later)
+- npm (v9 or later)
 
-## Customize configuration
+## Setup
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+1. Install dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2. Create a `.env` file in the root directory with the following content:
+```
+VITE_API_URL=http://localhost:5001
+```
 
-```sh
+## Development
+
+To start the development server:
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+The application will be available at http://localhost:5173
 
-```sh
+## Building for Production
+
+To build the application for production:
+
+```bash
 npm run build
 ```
+
+The built files will be in the `dist` directory.
+
+## Preview Production Build
+
+To preview the production build locally:
+
+```bash
+npm run preview
+``` 

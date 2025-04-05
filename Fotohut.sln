@@ -1,12 +1,5 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotohut.AppHost", "Fotohut.AppHost\Fotohut.AppHost.csproj", "{2011A3D9-BDF5-4878-AF69-9E8D1035DAA3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotohut.ServiceDefaults", "Fotohut.ServiceDefaults\Fotohut.ServiceDefaults.csproj", "{81526C40-7F02-4433-AE4C-15D92F763DD2}"
-EndProject
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotohut.API", "Fotohut.API\Fotohut.API.csproj", "{1BC86A66-4CC4-438E-BB90-A06FE01F89B9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotohut.API.MigrationService", "Fotohut.API.MigrationService\Fotohut.API.MigrationService.csproj", "{E9E3C7F7-7CDA-47CF-9591-7F8B2EDAAF56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +7,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2011A3D9-BDF5-4878-AF69-9E8D1035DAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2011A3D9-BDF5-4878-AF69-9E8D1035DAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2011A3D9-BDF5-4878-AF69-9E8D1035DAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2011A3D9-BDF5-4878-AF69-9E8D1035DAA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81526C40-7F02-4433-AE4C-15D92F763DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81526C40-7F02-4433-AE4C-15D92F763DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81526C40-7F02-4433-AE4C-15D92F763DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81526C40-7F02-4433-AE4C-15D92F763DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BC86A66-4CC4-438E-BB90-A06FE01F89B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BC86A66-4CC4-438E-BB90-A06FE01F89B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC86A66-4CC4-438E-BB90-A06FE01F89B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC86A66-4CC4-438E-BB90-A06FE01F89B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9E3C7F7-7CDA-47CF-9591-7F8B2EDAAF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9E3C7F7-7CDA-47CF-9591-7F8B2EDAAF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9E3C7F7-7CDA-47CF-9591-7F8B2EDAAF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9E3C7F7-7CDA-47CF-9591-7F8B2EDAAF56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
