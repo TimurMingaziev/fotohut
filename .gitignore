@@ -1,27 +1,70 @@
+# .NET specific
 bin/
 obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+*.dll
+*.pdb
+*.cache
+*.exe
 
 # IDE files
 .idea/
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.ntvs*
+*.njsproj
+*.sw?
 
 # Build results
-.vite/
-dist/
-*.local
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
 
-# Node.js
+# Node.js specific
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnp
+.pnp.js
+
+# Vue/Vite specific
+.vite/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
